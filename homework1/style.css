@@ -1,0 +1,28 @@
+body{
+    background-color: azure;
+}
+
+#header2{
+    font-style: italic;
+    color: darkblue;
+}
+
+p {
+    font-weight: bold;
+}
+
+.list{
+    font-weight: normal;
+    color: green;
+    text-decoration: underline;
+}
+
+article{
+    font-style: italic;
+}
+
+div{
+    font-size: 40px;
+    color: red;
+    text-decoration: underline;
+}
