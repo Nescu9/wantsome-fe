@@ -1,0 +1,38 @@
+.header {
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+}
+
+.aside1 {
+    background-color: yellow;
+    width: 250px;
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    background-color: rgb(158, 158, 234);
+    padding: 10px;
+}
+
+.aside2 {
+    background-color: pink;
+    width: 250px;
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+}
