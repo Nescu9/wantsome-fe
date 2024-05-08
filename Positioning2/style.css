@@ -1,0 +1,66 @@
+.parent {
+    background-color: rgb(230, 10, 10)7;
+    display: flex;
+    width: 555px;
+    height: 191px;
+
+    border-style: dotted;
+    border-color: rgb(87, 67, 93);
+    border-radius: 10px;
+    border-width: 5px;
+
+    top: 75px;
+
+    text-align: center;
+}
+
+.parent {
+    background-color: rgb(168, 176, 167);
+    top: 0;
+    left: 50%;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.turquoise h2{  
+    background-color: rgb(64, 184, 197);
+    width: 180px;
+    height: 120px;
+    border-style: dashed;
+    border-color: rgb(87, 67, 93);
+    border-radius: 10px;
+    margin: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.pink h2{
+    background-color: rgb(168, 139, 177);
+    position: relative;
+    width: 180px;
+    height: 120px;
+    border-style: dashed;
+    border-color: rgb(87, 67, 93);
+    border-radius: 10px;
+    top: 30px;
+    left: 140px;
+    z-index: 2;
+}
+
+.brown h2{
+    background-color: rgb(185, 171, 151);
+    width: 180px;
+    height: 120px;
+    border-style: dashed;
+    border-color: rgb(87, 67, 93);
+    border-radius: 10px;
+    top: 17px;
+    left: 370px;
+
+    z-index: 1;
+    position: absolute;
+}
