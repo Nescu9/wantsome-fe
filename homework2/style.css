@@ -1,0 +1,27 @@
+body {
+    background-color: salmon;
+}
+
+label {
+    background-color: skyblue;
+}
+
+input[type="text"] {
+    border-color: rgb(0, 115, 0);
+}
+
+#textarea {
+    border-color: rgb(0, 115, 0);
+}
+
+#emailInput {
+    background-color: rgb(159, 159, 236);
+}
+
+input[type="reset"] {
+    background-color: rgb(242, 117, 117);
+}
+
+input[type="submit"] {
+    background-color: greenyellow;
+}
