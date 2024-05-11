@@ -1,0 +1,72 @@
+.container {
+    display: flex;
+    width: 800px;
+    height: 500px;
+
+    position: relative;
+    justify-content: space-between;
+} 
+
+.vertical {
+    display: flex;
+    width: 33%;
+    height: 25%;
+
+    background-color: red;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: absolute;
+}
+
+.tiles {
+    display: flex;
+    width: 33%;
+    height: 25%;
+    background-color: yellow;
+    margin: 10px;
+
+    top: 25%;
+    left: 0;
+    position: absolute;
+}
+
+.wideTiles {
+    display: flex;
+    background-color: rgb(251, 111, 111);
+    width: 67.3%;
+    height: 46%;
+
+    bottom: 0;
+    left: 0;
+    margin-left: 10px;
+
+    position: absolute;
+
+}
+
+.middleTiles {
+    display: flex;
+    position: absolute;
+    width: 33%;
+    height: 52%;
+
+    background-color: rgb(62, 65, 219);
+    left: 35.5%;
+    margin-bottom: 10px;
+
+}
+
+
+.tallTile {
+    display: flex;
+    background-color: rgb(81, 210, 74);
+    width: 33.33%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 68.5%;
+
+    margin-left: 10px;
+}
