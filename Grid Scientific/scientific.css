@@ -1,0 +1,725 @@
+.scientific {
+    display: grid;
+    grid-template-columns: repeat(10, 5fr);
+    grid-template-rows: repeat(15, 5fr);
+    background-color: rgba(235, 235, 235, 255);
+    padding: 5px;
+    height: 800px;
+    width: 500px;
+    border: 1px solid black;
+    gap: 5px;
+}
+
+.calculator {
+    display: flex;
+    background-color: rgba(235, 235, 235, 255);
+    color: rgb(137, 137, 137);
+    grid-column: span 5;
+    align-items: center;
+    justify-content: left;
+    padding-left: 18px;
+}
+
+.minimize {
+    display: flex;
+    background-color: rgba(235, 235, 235, 255);
+    font-size: 40px;
+    color: rgb(137, 137, 137);
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.minimize:hover {
+    background-color: rgb(203, 203, 205);
+}
+
+.maximize {
+    display: flex;
+    background-color: rgba(235, 235, 235, 255);
+    font-size: 40px;
+    color: rgb(137, 137, 137);
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.maximize:hover {
+    background-color: rgb(203, 203, 205);
+}
+
+.close {
+    display: flex;
+    background-color: rgba(235, 235, 235, 255);
+    font-size: 15px;
+    margin-right: 10px;
+    color: rgb(137, 137, 137);
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.close:hover {
+    background-color: rgb(203, 203, 205);
+}
+
+.hamburger {
+    display: flex;
+    background-color: rgba(235, 235, 235, 255);
+
+    font-size: 20px;
+    padding-left: 15px;
+    align-items: center;
+    justify-content: left;
+    grid-row-start: 2;
+}
+
+.hamburger:hover {
+    background-color: rgb(203, 203, 205);
+}
+
+.stan {
+    display: flex;
+    background-color: rgba(235, 235, 235, 255);
+
+    font-size: 35px;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.history {
+    display: flex;
+    background-color: rgba(235, 235, 235, 255);
+
+    font-size: 30px;
+    grid-column-start: 10;
+    grid-column-end: 11;
+    grid-row-start: 2;
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    display: flex;
+    background-color: rgba(235, 235, 235, 255);
+    font-size: 70px;
+    margin-right: 20px;
+    grid-column-start: 9;
+    grid-column-end: 11;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    align-items: end;
+    justify-content: right;
+}
+
+.deg {
+    display: flex;
+    background-color: rgba(235, 235, 235, 255);
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    grid-row-start: 6;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.mc {
+    display: flex;
+    background-color: rgba(235, 235, 235, 255);
+    color: rgb(176, 175, 175);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 7;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.mr {
+    display: flex;
+    background-color: rgba(235, 235, 235, 255);
+    color: rgb(176, 175, 175);
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 7;
+    align-items: center;
+    justify-content: right;
+}
+
+.m {
+    display: flex;
+    background-color: rgba(235, 235, 235, 255);
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 7;
+    padding-left: 10px;
+    align-items: center;
+    justify-content: right;
+}
+
+
+.m2 {
+    display: flex;
+    background-color: rgba(235, 235, 235, 255);
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 7;
+    align-items: center;
+    justify-content: left;
+}
+
+.ms {
+    display: flex;
+    background-color: rgba(235, 235, 235, 255);
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 7;
+    align-items: center;
+    justify-content: right;
+}
+
+.trigonometry {
+    display: flex;
+    background-color: rgba(235, 235, 235, 255);
+    font-size: 25px;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 8;
+    align-items: center;
+    justify-content: left;
+}
+
+.function {
+    display: flex;
+    background-color: rgba(235, 235, 235, 255);
+    font-size: 25px;
+    grid-column-start: 6;
+    grid-column-end: 11;
+    grid-row-start: 8;
+    align-items: center;
+    justify-content: left;
+}
+
+.asterisk {
+    display: flex;
+    background-color: rgba(235, 235, 235, 255);
+    color: rgb(176, 175, 175);
+    grid-column-start: 9;
+    grid-column-end: 11;
+    grid-row-start: 7;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .ampersand {
+    display: flex;
+    background-color: rgb(229, 226, 226);
+    font-size: 25px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* .CE {
+    display: flex;
+    background-color: rgb(229, 226, 226);
+    font-size: 20px;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* .C {
+    display: flex;
+    background-color: rgb(229, 226, 226);
+    font-size: 20px;
+    grid-column-start: 5;
+    grid-column-end: 7;
+    align-items: center;
+    justify-content: center;
+} */
+
+.backspace {
+    display: flex;
+    background-color: rgb(229, 226, 226);
+    font-size: 20px;
+    grid-column-start: 9;
+    grid-column-start: span 2;
+    grid-row-start: 9;
+    align-items: center;
+    justify-content: center;
+}
+
+.backspace:hover {
+    background-color: rgb(203, 203, 205);
+    cursor: pointer;
+}
+
+.backspace:active {
+    background-color: rgb(120, 120, 120);
+}
+
+/* .dash {
+    display: flex;
+    background-color: rgb(229, 226, 226);
+    font-size: 18px;
+    grid-column-start: span 2;
+    grid-row-start: 8;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* .power {
+    display: flex;
+    background-color: rgb(229, 226, 226);
+    font-size: 18px;
+    grid-column-start: span 2;
+    grid-row-start: 8;
+    align-items: center;
+    justify-content: center;
+} */
+/* 
+.radacina {
+    display: flex;
+    background-color: rgb(229, 226, 226);
+    font-size: 18px;
+    grid-column-start: span 2;
+    grid-row-start: 8;
+    align-items: center;
+    justify-content: center;
+} */
+
+.division {
+    display: flex;
+    background-color: rgb(229, 226, 226);
+    font-size: 25px;
+    grid-column-start: 9;
+    grid-column-end: span 2;
+    grid-row-start: 11;
+    align-items: center;
+    justify-content: center;
+}
+
+.seven {
+    display: flex;
+    background-color: rgb(241, 240, 240);
+    font-size: 25px;
+    grid-column-start: 3;
+    grid-column-end: span 2;
+    grid-row-start: 12;
+    align-items: center;
+    justify-content: center;
+}
+
+.log {
+    display: flex;
+    background-color: rgb(229, 226, 226);
+    font-size: 23px;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    grid-row-start: 14;
+    align-items: center;
+    justify-content: center;
+}
+
+.ten {
+    display: flex;
+    background-color: rgb(229, 226, 226);
+    font-size: 25px;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    grid-row-start: 13;
+    align-items: center;
+    justify-content: center;
+}
+
+.why {
+    display: flex;
+    background-color: rgb(229, 226, 226);
+    font-size: 25px;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    grid-row-start: 12;
+    align-items: center;
+    justify-content: center;
+}
+
+.why2 {
+    display: flex;
+    background-color: rgb(229, 226, 226);
+    font-size: 25px;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    grid-row-start: 11;
+    align-items: center;
+    justify-content: center;
+}
+
+.why3 {
+    display: flex;
+    background-color: rgb(229, 226, 226);
+    font-size: 25px;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    grid-row-start: 10;
+    align-items: center;
+    justify-content: center;
+}
+
+.why4 {
+    display: flex;
+    background-color: rgb(229, 226, 226);
+    font-size: 25px;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    grid-row-start: 9;
+    align-items: center;
+    justify-content: center;
+}
+
+.phara {
+    display: flex;
+    background-color: rgb(229, 226, 226);
+    font-size: 25px;
+    grid-column-start: 3;
+    grid-column-end: span 2;
+    grid-row-start: 11;
+    align-items: center;
+    justify-content: center;
+}
+
+.phara2 {
+    display: flex;
+    background-color: rgb(229, 226, 226);
+    font-size: 25px;
+    grid-column-start: 5;
+    grid-column-end: span 2;
+    grid-row-start: 11;
+    align-items: center;
+    justify-content: center;
+}
+
+.n {
+    display: flex;
+    background-color: rgb(229, 226, 226);
+    font-size: 25px;
+    grid-column-start: 7;
+    grid-column-end: span 2;
+    grid-row-start: 11;
+    align-items: center;
+    justify-content: center;
+}
+
+.x {
+    display: flex;
+    background-color: rgb(229, 226, 226);
+    font-size: 25px;
+    grid-column-start: 3;
+    grid-column-end: span 2;
+    grid-row-start: 10;
+    align-items: center;
+    justify-content: center;
+}
+
+.x2 {
+    display: flex;
+    background-color: rgb(229, 226, 226);
+    font-size: 25px;
+    grid-column-start: 5;
+    grid-column-end: span 2;
+    grid-row-start: 10;
+    align-items: center;
+    justify-content: center;
+}
+
+.exp {
+    display: flex;
+    background-color: rgb(229, 226, 226);
+    font-size: 25px;
+    grid-column-start: 7;
+    grid-column-end: span 2;
+    grid-row-start: 10;
+    align-items: center;
+    justify-content: center;
+}
+
+.mod {
+    display: flex;
+    background-color: rgb(229, 226, 226);
+    font-size: 25px;
+    grid-column-start: 9;
+    grid-column-end: span 2;
+    grid-row-start: 10;
+    align-items: center;
+    justify-content: center;
+}
+
+.pi {
+    display: flex;
+    background-color: rgb(229, 226, 226);
+    font-size: 25px;
+    grid-column-start: 3;
+    grid-column-end: span 2;
+    grid-row-start: 9;
+    align-items: center;
+    justify-content: center;
+}
+
+.e {
+    display: flex;
+    background-color: rgb(229, 226, 226);
+    font-size: 25px;
+    grid-column-start: 5;
+    grid-column-end: span 2;
+    grid-row-start: 9;
+    align-items: center;
+    justify-content: center;
+}
+
+.c {
+    display: flex;
+    background-color: rgb(229, 226, 226);
+    font-size: 25px;
+    grid-column-start: 7;
+    grid-column-end: span 2;
+    grid-row-start: 9;
+    align-items: center;
+    justify-content: center;
+}
+
+.seven:hover {
+    background-color: rgb(203, 203, 205);
+}
+
+.eight {
+    display: flex;
+    background-color: rgb(241, 240, 240);
+    font-size: 25px;
+    grid-column-start: 5;
+    grid-column-end: span 2;
+    grid-row-start: 12;
+    align-items: center;
+    justify-content: center;
+}
+
+.eight:hover {
+    background-color: rgb(203, 203, 205);
+}
+
+.nine {
+    display: flex;
+    background-color: rgb(241, 240, 240);
+    font-size: 25px;
+    grid-column-start: 7;
+    grid-column-end: span 2;
+    grid-row-start: 12;
+    align-items: center;
+    justify-content: center;
+}
+
+.nine:hover {
+    background-color: rgb(203, 203, 205);
+}
+
+.multiply {
+    display: flex;
+    background-color: rgb(229, 226, 226);
+    font-size: 15px;
+    grid-column-start: 9;
+    grid-column-end: span 2;
+    grid-row-start: 12;
+    align-items: center;
+    justify-content: center;
+}
+
+.four {
+    display: flex;
+    background-color: rgb(241, 240, 240);
+    font-size: 25px;
+    grid-column-start: 3;
+    grid-column-end: span 2;
+    grid-row-start: 13;
+    align-items: center;
+    justify-content: center;
+}
+
+.four:hover {
+    background-color: rgb(203, 203, 205);
+}
+
+.five {
+    display: flex;
+    background-color: rgb(241, 240, 240);
+    font-size: 25px;
+    grid-column-start: 5;
+    grid-column-end: span 2;
+    grid-row-start: 13;
+    align-items: center;
+    justify-content: center;
+}
+
+.five:hover {
+    background-color: rgb(203, 203, 205);
+}
+
+.six {
+    display: flex;
+    background-color: rgb(241, 240, 240);
+    font-size: 25px;
+    grid-column-start: 7;
+    grid-column-end: span 2;
+    grid-row-start: 13;
+    align-items: center;
+    justify-content: center;
+}
+
+.six:hover {
+    background-color: rgb(203, 203, 205);
+}
+
+.minus {
+    display: flex;
+    background-color: rgb(229, 226, 226);
+    font-size: 25px;
+    grid-column-start: 9;
+    grid-column-end: span 2;
+    grid-row-start: 13;
+    align-items: center;
+    justify-content: center;
+}
+
+.one {
+    display: flex;
+    background-color: rgb(241, 240, 240);
+    font-size: 25px;
+    grid-column-start: 3;
+    grid-column-end: span 2;
+    grid-row-start: 14;
+    align-items: center;
+    justify-content: center;
+}
+
+.one:hover {
+    background-color: rgb(203, 203, 205);
+}
+
+.two {
+    display: flex;
+    background-color: rgb(241, 240, 240);
+    font-size: 25px;
+    grid-column-start: 5;
+    grid-column-end: span 2;
+    grid-row-start: 14;
+    align-items: center;
+    justify-content: center;
+}
+
+.two:hover {
+    background-color: rgb(203, 203, 205);
+}
+
+.three {
+    display: flex;
+    background-color: rgb(241, 240, 240);
+    font-size: 25px;
+    grid-column-start: 7;
+    grid-column-end: span 2;
+    grid-row-start: 14;
+    align-items: center;
+    justify-content: center;
+}
+
+.three:hover {
+    background-color: rgb(203, 203, 205);
+}
+
+.plus {
+    display: flex;
+    background-color: rgb(229, 226, 226);
+    font-size: 25px;
+    grid-column-start: 9;
+    grid-column-end: span 2;
+    grid-row-start: 14;
+    align-items: center;
+    justify-content: center;
+}
+
+.plusm {
+    display: flex;
+    background-color: rgb(241, 240, 240);
+    font-size: 25px;
+    grid-column-start: 3;
+    grid-column-end: span 2;
+    grid-row-start: 15;
+    align-items: center;
+    justify-content: center;
+}
+
+.ln {
+    display: flex;
+    background-color: rgb(229, 226, 226);
+    font-size: 23px;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    grid-row-start: 15;
+    align-items: center;
+    justify-content: center;
+}
+
+.zero {
+    display: flex;
+    background-color: rgb(241, 240, 240);
+    font-size: 25px;
+    grid-column-start: 5;
+    grid-column-end: span 2;
+    grid-row-start: 15;
+    align-items: center;
+    justify-content: center;
+}
+
+.dot {
+    display: flex;
+    background-color: rgb(241, 240, 240);
+    font-size: 25px;
+    grid-column-start: 7;
+    grid-column-end: span 2;
+    grid-row-start: 15;
+    align-items: center;
+    justify-content: center;
+}
+
+.zero:hover {
+    background-color: rgb(203, 203, 205);
+    cursor: pointer;
+}
+
+.equal {
+    display: flex;
+    background-color: rgba(138, 186, 225, 255);
+    font-size: 25px;
+    grid-column-start: 9;
+    grid-column-end: span 2;
+    grid-row-start: 15;
+    align-items: center;
+    justify-content: center;
+}
+
+.equal:hover {
+    background-color: rgb(203, 203, 205);
+    cursor: pointer;
+}
+
+.equal:active {
+    background-color: rgba(138, 186, 225, 255);
+    cursor: pointer;
+}
