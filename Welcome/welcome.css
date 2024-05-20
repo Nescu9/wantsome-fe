@@ -1,0 +1,72 @@
+.container {
+    display: flex;    flex-direction: column;
+    width: 450px;
+    height: 400px;
+    background-color: rgb(43, 72, 116);
+    color: white;
+}
+
+.welcome {
+    display: flex;
+    height: 110px;
+    font-size: 30px;
+    font-family: 'montessori', sans-serif;
+    top: 0;
+    animation: slideDown 3.5s forwards;
+    
+    text-align: center;
+    justify-content: center;
+}
+
+.text {
+    position: absolute;
+    display: flex;
+    width: 400px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 180px;
+    padding-left: 30px;
+    left: 0;
+    top: 0;
+
+    animation: slideIn 2s ease-in-out forwards;
+}
+
+.read {
+    display: flex;
+    width: 90px;
+    height: 40px;
+    border: 1px solid white;
+    margin-top: 180px;
+    margin-left: 180px;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    opacity: 0;
+    animation: fadeIn 6s forwards;
+}
+
+.read:nth-child(3) {
+    animation-delay: 2.5s;
+}
+
+@keyframes slideDown {
+    to {
+        transform: translateY(100%);
+    }
+}
+@keyframes slideIn {
+    0% {
+        left: -100%;
+    }
+    100% {
+        left: 0%;
+    }
+}
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
