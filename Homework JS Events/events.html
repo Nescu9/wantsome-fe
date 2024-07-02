@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Shopping list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>Shopping list</header>
+    <form id="add-items">
+        <div class="form">
+            <h2>Add items</h2>
+            <div>
+                <input type="text" id="item-input" placeholder="Type an item" required>
+                <button id="myButton" type="submit">Submit</button>
+            </div>
+
+            <div>
+                <h2>Items</h2>
+                <ul id="item-list">
+                    <li class="item">Item 1</li>
+                    <li class="item">Item 2</li>
+                    <li class="item">Item 3</li>
+                    <li class="item">Item 4</li>
+                </ul>
+            </div>
+        </div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+<!-- Creati un shopping list care sa contina:
+1. HTML cu o lista de cumparaturi
+2. un formular de adaugare
+3. eveniment pe formular ca la adaugare itemul sa apara in lista
+
+Extra:
+1. stergere item din lista
+2. marcare ca rezolvat/cumparat
+3. Disable la butonul de submit si la input cand se atinge limita de 10 items -->
