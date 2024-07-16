@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>audiophile Signup</title>
+    <link rel="stylesheet" href="scss/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="background-image">
+            <!-- Fullscreen image -->
+            <img src="images/signup.jpg" alt="Description of the image">
+        </div>
+        <div class="signup-form">
+            <!-- Signup Form -->
+            <h2>Sign Up</h2>
+            <form id="signup-form" onsubmit="return validateForm(event)" action="pagina.html">
+                <input type="text" placeholder="Username" id="username" name="username">
+                <p id="username-error" class="error-message" style="color: red; font-size: 12px;"></p>
+
+                <input type="email" placeholder="Email address" id="email" name="email">
+                <p id="email-error" class="error-message" style="color: red; font-size: 12px;"></p>
+
+                <input type="password" placeholder="Password" id="password">
+                <p id="password-error" class="error-message" style="color: red; font-size: 12px;"></p>
+
+                <input type="password" placeholder="Confirm Password" id="confirmPass">
+                <p id="confirmPass-error" class="error-message" style="color: red; font-size: 12px;"></p>
+
+                <p id="general-error" class="error-message" style="color: red; font-size: 12px;"></p>
+
+
+                <button type="submit">Sign Up</button>
+
+                <p>By clicking the Sign Up button, you agree to our <a href="https://gdpr.eu/" target="_blank">Terms and
+                        Conditions</a></p>
+
+            </form>
+
+            <!-- Contact -->
+            <div class="contact-img">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" class="facebook-img" alt="Facebook">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/insta.png" class="insta-img" alt="Instagram">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" class="twitter-img" alt="Twitter">
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="signup.js"></script>
+</body>
+
+</html>
