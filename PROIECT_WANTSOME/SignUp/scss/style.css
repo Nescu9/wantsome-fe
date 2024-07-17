@@ -1,0 +1,132 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  font-family: "Helvetica Neue";
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.background-image {
+  flex: 1;
+  position: relative;
+}
+
+.background-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-fit: cover;
+  object-fit: cover;
+  position: absolute;
+}
+
+.signup-form {
+  margin-top: 50px;
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+}
+
+.signup-form .label {
+  display: flex;
+  margin: 0;
+  padding-left: 5px;
+
+}
+
+.signup-form form {
+  padding-top: 10px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.signup-form label,
+.signup-form input,
+.signup-form button {
+  margin-top: 5px;
+  margin-bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.signup-form input,
+.signup-form button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+}
+
+.signup-form p {
+  font-size: 15px;
+}
+
+.signup-form button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.signup-form button:hover {
+  background-color: #2980b9;
+}
+
+.contact-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.contact-img a {
+  margin: 0 10px;
+}
+
+.facebook-img {
+  padding-top: 2px;
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+}
+
+.insta-img {
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+}
+
+.twitter-img {
+  padding-top: 3px;
+  width: 35px;
+  height: 25px;
+  background-size: cover;
+}
+
+#error-message {
+  margin-top: 0;
+  color: red;
+  padding-bottom: 3px; 
+}
+
+#username-error,
+#email-error,
+#password-error,
+#confirmPass-error {
+  display: flex;
+  padding-left: 5px;
+  align-items: center;
+  justify-content: left;
+}
+
+
+/*# sourceMappingURL=style.css.map */
